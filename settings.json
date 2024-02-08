@@ -1,0 +1,82 @@
+{
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.stickyScroll.enabled": true,
+  "redhat.telemetry.enabled": true,
+  "window.commandCenter": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 18,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "xml.colors": [],
+  "json.schemas": [],
+  "workbench.colorTheme": "Monokai Night",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "bitoAI.codeCompletion.setAutoCompletionTriggerLogic": 250,
+  "editor.cursorStyle": "line", // Puedes cambiar a "block" o "underline"
+  "editor.cursorWidth": 2, // Ancho del cursor en píxeles
+  "editor.cursorSurroundingLines": 5, // Número de líneas alrededor del cursor que deben mantenerse visibles
+  "editor.cursorAnimation": "smooth", // Puedes cambiar a "smooth" para una animación suave
+  "editor.fontFamily": "Anonymous Pro",  // Ejemplo de configuración de fuente
+  "editor.formatOnSave": true,
+  "terminal.integrated.cursorStyle": "line",  // Ejemplo de configuración de estilo de cursor en el terminal
+  "terminal.integrated.cursorBlinking": true,  // Ejemplo de configuración de parpadeo del cursor en el terminal
+  "terminal.integrated.rightClickBehavior": "paste",  // Ejemplo de configuración del comportamiento del clic derecho en el terminal
+  "workbench.colorCustomizations": {
+    "[Monokai Night]": {
+      "activityBar.background": "#00000000",
+      "activityBar.foreground": "#00ff95fd",
+      "sideBar.background": "#00000000",
+      "sideBar.foreground": "#ffffffec",
+      "editor.background": "#00000000",
+      "editor.foreground": "#ffffff",
+      "statusBar.background": "#00000000",
+      "statusBar.foreground": "#ffffff",
+      "statusBar.border": "#00000000",
+      "statusBar.noFolderBackground": "#00000000",
+      "statusBar.debuggingBackground": "#00000000",
+      "statusBar.debuggingForeground": "#ffffff",
+      "statusBar.debuggingBorder": "#00000000",
+      "statusBar.noFolderForeground": "#ffffff",
+      "statusBar.noFolderBorder": "#00000000",
+      "editorGroup.border": "#00000000",
+      "editorGroupHeader.tabsBackground": "#00000000",
+      "sideBarSectionHeader.background": "#00000000",
+      "activityBarBadge.background": "#00ff95fd",
+      "activityBarBadge.foreground": "#000000",
+      "editorGutter.background": "#00000000",
+      "editorCursor.foreground": "#ff0000d0",
+      
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "string",
+          "string.quoted"
+        ],
+        "settings": {
+          "foreground": "#3ad9f5"
+        }
+      }
+    ],
+    "functions": "#f0b467",
+    "variables": "#72fab6",
+    "keywords": "#ff0080",
+    "comments": "#5f5f5f",
+    "types": "#8be8f7"
+  },
+  "open-php-html-js-in-browser.selectedBrowser": "Chrome",
+  "git.autofetch": true,
+  "terminal.integrated.fontSize": 14,
+  "scm.inputFontSize": 16,
+  "chat.editor.fontSize": 15,
+  "markdown.preview.fontSize": 17,
+  "workbench.settings.applyToAllProfiles": [
+  
+  ]
+}
