@@ -20,11 +20,10 @@
   "editor.cursorWidth": 2, // Ancho del cursor en píxeles
   "editor.cursorSurroundingLines": 5, // Número de líneas alrededor del cursor que deben mantenerse visibles
   "editor.cursorAnimation": "smooth", // Puedes cambiar a "smooth" para una animación suave
-  "editor.fontFamily": "Anonymous Pro",  // Ejemplo de configuración de fuente
-  "editor.formatOnSave": true,
-  "terminal.integrated.cursorStyle": "line",  // Ejemplo de configuración de estilo de cursor en el terminal
-  "terminal.integrated.cursorBlinking": true,  // Ejemplo de configuración de parpadeo del cursor en el terminal
-  "terminal.integrated.rightClickBehavior": "paste",  // Ejemplo de configuración del comportamiento del clic derecho en el terminal
+  "editor.fontFamily": "Anonymous Pro", // Ejemplo de configuración de fuente
+  "terminal.integrated.cursorStyle": "line", // Ejemplo de configuración de estilo de cursor en el terminal
+  "terminal.integrated.cursorBlinking": true, // Ejemplo de configuración de parpadeo del cursor en el terminal
+  "terminal.integrated.rightClickBehavior": "paste", // Ejemplo de configuración del comportamiento del clic derecho en el terminal
   "workbench.colorCustomizations": {
     "[Monokai Night]": {
       "activityBar.background": "#00000000",
@@ -49,16 +48,14 @@
       "activityBarBadge.foreground": "#000000",
       "editorGutter.background": "#00000000",
       "editorCursor.foreground": "#ff0000d0",
-      
+      "terminal.foreground": "#ffffff",
+      "terminal.ansiBrightYellow": "#51ff00"
     }
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": [
-          "string",
-          "string.quoted"
-        ],
+        "scope": ["string", "string.quoted"],
         "settings": {
           "foreground": "#3ad9f5"
         }
@@ -76,7 +73,18 @@
   "scm.inputFontSize": 16,
   "chat.editor.fontSize": 15,
   "markdown.preview.fontSize": 17,
-  "workbench.settings.applyToAllProfiles": [
-  
-  ]
+  "workbench.settings.applyToAllProfiles": [],
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.minimap.enabled": false
 }
